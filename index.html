@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html large="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device width,initial-scale=1.0">
+        <title>Personal Portfolio Website</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/9a3bf685d0.js" crossorigin="anonymous"></script>
+        <style>
+            table, th, td{
+                border: 8px solid white;
+            }
+        </style>
+
+    </head>
+    <body>
+
+       
+        <div id="header">
+            <div class="container">
+                <nav>                  
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars"onclick="openmenu()"></i>
+
+
+                </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi,I'm <span>Kamal</span><br> Modi from Kenya</h1>
+            </div>
+
+            </div>
+
+
+        </div>
+        <!------------about-------------->    
+
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="personal-portfolio-img\images\IMG-20220605-WA0045.jpg">
+
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>I am 29 years old currently studying at Kenyatta University  pursuing my degree in Information Technology.
+                            I reside in Westlands with my family members who definitely support me in my endeavours.
+                            I have completed courses in ICDL and IBM in Strathmore University and have documents to support ths information.
+
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills </p>
+                            <p class="tab-links"onclick="opentab('experience')">Experience </p>
+                            <p class="tab-links"onclick="opentab('education')">Education </p>
+                            
+                            
+
+                            
+
+                        </div>
+                       <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                                <li><span>Web Development</span><br>Web App Development</li>
+                                <li><span>App Development</span><br>Building Android/iOs apps</li>
+                            </ul>
+                        </div> 
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2021-2022</span><br>UI/UX Design Training at Moringa School</li>
+                                <li><span>2019-2021</span><br>Web App Intern at Safaricom</li>
+                                <li><span>2017-2019</span><br>Practical Levels of eCommerce at Good Business Foundation</li>
+                                <li><span>2015-2017</span><br>Attachment at Internet Technologies</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2022-Current</span><br>BSC.IT at Kenyatta University</li>
+                                <li><span>2014</span><br>ICDL at Strathmore University</li>
+                                <li><span>2013</span><br>IBM at Strathmore University</li>
+                                <li><span>2008-2012</span><br>A Levels at Crenshaw College</li>
+                                <li><span>2001-2008</span><br>Junior Levels at Bravard Primary</li>
+                            </ul>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!----------services------------->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>Web design and development is an umbrella term that describes the process of creating a website. Like the name suggests, it involves two major skill sets: web design and web development. Web design determines the look and feel of a website, while web development determines how it functions.Web designing is the process of planning, conceptualizing, and implementing the plan for designing a website in a way that is functional and offers a good user experience. User experience is central to the web designing process. Websites have an array of elements presented in ways that make them easy to navigate.</p>
+                        <a href="https://www.interaction-design.org/literature/topics/web-design">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop-simple"></i>
+                        <h2>UI/UX Design</h2>
+                        <p>UX design refers to the term “user experience design”, while UI stands for “user interface design”. Both elements are crucial to a product and work closely together.A user can engage with a product or service by using a user interface (UI), which is essentially a collection of screens, pages, and visual elements (such as buttons and icons). The phrase “User Experience” refers to how a person reacts to each component of a company's goods and services (UX).</p>
+                        <a href="https://careerfoundry.com/en/blog/ux-design/the-difference-between-ux-and-ui-design-a-laymans-guide/">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store"></i>
+                        <h2>App Design</h2>
+                        <p>Application design combines a user interface, commonly known as (UI), and user experience (UX). User interface Design tends to the overall style of the app, like colors, fonts, and the general look and feel. In contrast, the user experience will always focus on actual functionality and usability.</p>
+                        <a href="https://designproject.io/blog/application-design/">Learn More</a>
+                    </div>
+
+                </div>
+
+        </div>
+        <!----------portfolio----------->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                       <img src="personal-portfolio-img\images\work-2.png"> 
+                       <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app allows you to interact boldly with your friends and relatives all over the world.You can get it from playstore.</p>
+                        <a href="https://www.whatsapp.com/"><i class="fa-sharp fa-regular fa-cloud-arrow-down fa-flip"></i></a>
+                
+                        
+                       </div>
+                    </div>
+                </div>
+               
+                 <div class="work">
+                    <img src="personal-portfolio-img\images\work-3.png"> 
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app connects helps you access all items at a cheaper price and delivered to your doorstep.</p>
+                        <a href="https://pickupmtaani.com/">
+                            <i class= "fa-sharp fa-regular fa-download fa-bounce"></i></a>
+                
+                 </div>
+                <a href="#" class="btn">See more</a>
+
+
+
+            </div>
+        </div>
+        <!-------------contact------>
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>ashokkamal972@gmail.com</p>
+                        <p><i class="fas fa-phone-square"></i></i>0725258076</p>
+                        <div class="social-icons">
+                            <a href="https://instagram.com/bossmanmowdi._?igshid=ZDdkNTZiNTM="><i class="fa-brands fa-instagram fa-bounce"></i></a>
+                            <a href="https://fa-whatsapp.com/dl/"><i class="fa-brands fa-whatsapp fa-flip"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter fa-beat-fade"></i></a>
+                            <a href="https://www.snapchat.com/add/sultanmowdi?share_id=KvDn7ZiT3dk&locale=en-GB"><i class="fa-brands fa-snapchat fa-shake"></i></a>
+                            <a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin fa-bounce"></i></a>
+                        </div>
+                        <a href="personal-portfolio-img/images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+                <a href="#" class="btn">See More</a>
+            </div>
+            <table>
+                <caption><b>PERSONAL SUMMARY</b></caption>
+                <tr>
+                    <td>Full Name-Ashok Kamal Modi</td>
+                    <td>Date of Birth-17th October 1994(29 yrs old)</td>
+                    <td>Place of Birth-Lamu,Lamu West Constituency, Kenya</td>
+                    <td>Height-5ft 11in(182cm)</td>
+                    <td>Weight-98kg</td>
+                    <td>Occupation-Student</td>
+                    <td>School-Kenyatta University</td>
+                </tr>
+            </table>
+            <div class="copyright">
+                <p>Copyright @Kamal.Made with <i class="fas fa-heart"></i> Love And Dedication</p>
+            </div>
+        </div>
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+
+            }
+        </script>
+
+        <script>
+
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemenu.style.right ="0";
+            }
+            function closemenu(){
+                sidemenu.style.right ="-200px";
+            }
+
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbz93Wm1yyqRCRnB8NiywnYJGRlT_3StiVZ8ESZqadqt6oIZPtsUk6tdIAm1MhpBhpzyWQ/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response =>{
+                    msg.innerHTML ="Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML =""
+
+                    },5000)
+                    form.reset()
+                 })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+        
+
+    </body>
+</html>
